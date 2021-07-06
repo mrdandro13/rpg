@@ -41,7 +41,9 @@ class Player:
         return f'{self.name}'
 
 class Ability:
-    def __init__(self, name, critRate)
+    def __init__(self, name, critRate):
+        self.name = name
+        self.critRate = critRate
 
 class Weapon:
     def __init__(self, name, atk, reqExp, abilities):
